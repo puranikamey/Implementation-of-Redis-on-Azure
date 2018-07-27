@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Sqlredis_starbucks">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mssql-jdbc-6.2.2.jre8.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Java/jdk1.8.0_161/bin/mssql-jdbc-6.2.2.jre8.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jedis-2.9.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/ms/advancecDBcloud6331/Azure/jedis-2.9.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Java/jdk1.8.0_161/bin/servlet-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mssql-jdbc-6.2.2.jre7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Java/jdk1.8.0_161/bin/mssql-jdbc-6.2.2.jre7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Sqlredis_starbucks"/>
+        <property name="java-output-path" value="/Sqlredis_starbucks/build/classes"/>
+    </wb-module>
+</project-modules>
